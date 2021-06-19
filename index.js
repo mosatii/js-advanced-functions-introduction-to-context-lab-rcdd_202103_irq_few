@@ -9,7 +9,6 @@ let createEmployeeRecord = function(row){
     }
 }
 
-let findEmployeeByFirstName = ""
 let createEmployees = function(employeeRowData) {
     return employeeRowData.map(function(row){
         return createEmployeeRecord(row)
@@ -76,7 +75,7 @@ let createEmployeeRecords = function(src) {
   })
 }
 
-let findEmployeeByFirstName = function(srcArray, firstName) {
+let findEmployeebyFirstName = function(srcArray, firstName) {
   return srcArray.find(function(rec){
     return rec.firstName === firstName
   })
